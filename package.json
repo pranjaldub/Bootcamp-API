@@ -1,0 +1,19 @@
+{
+  "name": "bootcamp-api",
+  "version": "1.0.0",
+  "description": "bootcamp backend api",
+  "main": "server.js",
+  "scripts": {
+    "test": "NODE_ENV=production node server",
+    "dev":"nodemon server"
+  },
+  "author": "Pranjal Dubey",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
